@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "GilroyMedium";
+    src: url("../denisnovik/fonts/GilroyMedium.eot");
+    src: url("../denisnovik/fonts/GilroyMedium.eot")format("embedded-opentype"),
+    url("../denisnovik/fonts/GilroyMedium.woff") format("woff"),
+    url("../denisnovik/fonts/GilroyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "GilroyBold";
+    src: url("../denisnovik/fonts/GilroyBold.eot");
+    src: url("../denisnovik/fonts/GilroyBold.eot")format("embedded-opentype"),
+    url("../denisnovik/fonts/GilroyBold.woff") format("woff"),
+    url("../denisnovik/fonts/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+body {
+    font-family: 'Gilroy-Medium', Tahoma;
+    font-size: 18px;
+    line-height: 22px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 200px;
+    width: auto;
+    max-width: 1445px;
+    
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "GilroyBold", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 33px;
+  align-items: center;
+  
+}
+.navigation a{
+  font-family: 'Gilroy-Bold', Tahoma;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #828282;
+}
+
+.nav_active a {
+  color: #070707;
+}
+.navigation a:hover {
+  border-bottom: 1px solid #070707;
+  color: #070707;
+}
+.line__hed {
+  width: auto;
+  max-width: 1410px; 
+  border-bottom: 1px solid #828282;
+  margin-top: 20px;
+  
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.title__hed {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.den__nov{
+  width: 200px;
+  font-family: 'Gilroy-Bold',Tahoma;
+  font-size: 44px;
+  line-height: 59px;
+
+  color: #070707;
+}
+.title__hed p{
+  color: #070707;
+}
+
+.ru__hed {
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #828282;
+
+  transform: rotate(-90deg);
+  margin-bottom: 25px;
+}
+.splide__slide img {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+}
+
