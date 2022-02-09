@@ -4,15 +4,15 @@ document.addEventListener( 'DOMContentLoaded', function () {
     pauseOnFocus: boolean = true,
     resetProgress: boolean = true,
     type: string = 'slider',
-    arrows: boolean  = false,
+    arrows: boolean  = true,
     autoHeight: boolean = true,
     autoplay: true,
     cover: false,
-    height : '100rem',
-    speed: number = 1600,
+   
+    
     rewind: boolean = true,
     perPage: number = 1,
     pauseOnHover: boolean = true,
-    pagination: boolean  = true,
+    
   }).mount();
 });
