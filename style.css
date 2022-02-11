@@ -32,6 +32,7 @@ h1,h2,h3,h4,h5,h6 {
     font-family: "GilroyBold", sans-serif;
     font-style: normal;
     font-weight: 700;
+    font-size: 34px;
 }
 
 *,
@@ -85,7 +86,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 .den__nov{
   width: 200px;
-  font-family: 'GilroyBold',Tahoma;
   font-size: 44px;
   line-height: 59px;
 
@@ -105,7 +105,7 @@ h1,h2,h3,h4,h5,h6 {
   transform: rotate(-90deg);
   margin-bottom: 25px;
 }
-.splide__slide img {
+.slide__img {
   margin-top: 30px;
   
   width: 100%;
@@ -134,7 +134,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .section__about h2 {
   margin-bottom: 40px;
-  font-size: 34px;
+  
   line-height: 42px;
 }
 
@@ -143,3 +143,73 @@ h1,h2,h3,h4,h5,h6 {
   width: 490px;
 
 }
+
+/* -=========Block__Second=======- */
+.second__skl {
+
+  text-align: center;
+  margin-top: 50px;
+  
+}
+.second__sub {
+   padding-top: 50px;
+}
+
+.slide__image {
+   background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%); 
+}
+.text__pad {
+  padding-top: 20px;
+  
+}
+.slide__star {
+  margin-top: 3em;
+  
+}
+
+#card-slider-list {
+  display: flex;
+  align-items: flex-start;
+  margin: 50px 50px !important;
+  
+}
+.slide__star2 {
+  margin-top: 2em;
+}
+.slide__size {
+  height: 90px;
+  width: 90px;
+}
+
+/* -========Block Portfolio=======- */
+.portfolio {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #F6F6F6;
+}
+.portfolio h2 {
+  margin-top: 60px;
+}
+.portfolio a {
+  margin-top: 50px;
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+
+  color: #070707;
+}
+.portfolio__image {
+  margin-top: 70px;
+
+}
+
+
+
+
+
+

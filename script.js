@@ -7,12 +7,27 @@ document.addEventListener( 'DOMContentLoaded', function () {
     arrows: boolean  = true,
     autoHeight: boolean = true,
     autoplay: true,
-    cover: false,
-   
-    
+    cover: false,    
     rewind: boolean = true,
     perPage: number = 1,
     pauseOnHover: boolean = true,
     
   }).mount();
 });
+
+document.addEventListener( 'DOMContentLoaded', function () {
+  new Splide( '#card-slider', {   
+    resetProgress: boolean = true,
+    type: string = 'slider',
+    arrows: boolean  = true,
+    autoHeight: boolean = true,
+    cover: false,
+    rewind: boolean = true,
+    perPage: number = 4,
+		breakpoints: {
+			640: {
+				perPage: 8,
+			},
+		},
+  } ).mount();
+} );
