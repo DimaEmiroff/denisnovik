@@ -184,17 +184,12 @@ h1,h2,h3,h4,h5,h6 {
 /* -============Block Portfolio=============- */
 .portfolio {
   display: flex;
-  
   flex-direction: column;
   justify-content: center;
   text-align: center;
   background: #F6F6F6;
-  margin-top: 50px;
+  margin-top: 30px;
   height: 2255px;
-}
-
-.portfolio h2 {
-  margin-top: 60px;
 }
 
 .portfolio a {
@@ -235,18 +230,53 @@ h1,h2,h3,h4,h5,h6 {
   height: 40px;
   width: 180px;
   background: #070707;
+  filter: drop-shadow(6px 6px 4px rgba(124, 124, 124, 0.527));
   font-family: 'GilroyBold', sans-serif;
   font-size: 18px;
   text-align: center;
   color: #FFFFFF;
 }
-
-.contacts__soc_icons {
-  padding: 20px 50px 50px 20px;
-  filter: drop-shadow(6px 6px 4px rgba(124, 124, 124, 0.527));
-  
+.contacts__button:hover {
+  background: #777777;
+  box-shadow: 1px 2px 3px 3px #828282;
+  cursor: pointer;
 }
+.contacts__social_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(6px 6px 4px rgba(124, 124, 124, 0.527));
+}
+.contacts__social_icons li {
+  padding-left: 50px;
+  margin-bottom: 20px;
+ 
+}
+.contacts__social_icons li:first-child {
+  padding-left: 0;
+}
+.contacts__social_icons a{
+  position: relative;
+  display: block;
+  height: 32px;
+  width: 32px;
 
+}
+.contacts__social_icons a:hover {
+  filter: drop-shadow(4px 4px 8px rgba(44, 44, 44, 0.527));
+}
+.contacts__soc_icons_instagram {
+  background-image: url(./image/instagram.png);
+}
+.contacts__soc_icons_facebook {
+  background-image: url(./image/facebook.png);
+}
+.contacts__soc_icons_linkedin {
+  background-image: url(./image/linkedin.png);
+}
+.contacts__soc_icons_behance {
+  background-image: url(./image/behance.png);
+}
 .contacts__par {
   font-family: 'GilroyMedium', sans-serif;
   font-size: 14px;
@@ -334,10 +364,13 @@ h1,h2,h3,h4,h5,h6 {
   .slide__star2 {
     margin-bottom: 30px;
   }
+  .portfolio {
+    height: 1820px;
+  }
+
   .portfolio img{
     display: flex;
     
-    margin-top: 30px;
     height: auto;
     min-width: 484px;
   
