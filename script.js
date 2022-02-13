@@ -31,3 +31,20 @@ document.addEventListener( 'DOMContentLoaded', function () {
 		},
   } ).mount();
 } );
+
+document.addEventListener( 'DOMContentLoaded', function () {
+  new Splide( '#card-slider-mobile', {   
+    resetProgress: boolean = true,
+    type: string = 'slider',
+    arrows: boolean  = true,
+    autoHeight: boolean = true,
+    cover: false,
+    rewind: boolean = true,
+    perPage: number = 1,
+		breakpoints: {
+			640: {
+				perPage: 1,
+			},
+		},
+  } ).mount();
+} );

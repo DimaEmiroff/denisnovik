@@ -10,24 +10,28 @@
     <title>Denis Novik</title>
 </head>
 <body>
-  
+<main>
   <!--Header  -->
-    <main class="hed__er">
+    <section class="header">
         <nav>
-            <ul class="navigation">
-              <li class="nav_active"><a href="#">Home</a></li>
+            <ul class="header__navigation">
+              <li class="header__navigation_active"><a href="#">Home</a></li>
               <li><a href="#">About me</a></li>
               <li><a href="#">Skills</a></li>
               <li><a href="#">Portfolio</a></li>
               <li><a href="#">Contacts</a></li>
             </ul>
           </nav>
-        <figcaption class="line__hed"></figcaption>
-        <div class="title__hed">
-          <h1 class="den__nov">Denis Novik</h1>
+        <hr class="header__navigation__line"></hr>
+        <div class="header__burger_menu">
+          <button class="header__burger_button"></button>
+        </div>
+        <div class="header__title">
+          <h1 class="header__title_dennov">Denis Novik</h1>
           <p>UX | UI designer <br>
             24 years old, Minsk</p>
-            <p class="ru__hed">RU |<b>ENG</b></p>
+            <p class="header__ruen">RU |<b>ENG</b></p>
+            
         </div>
 
         <div id="image-slider" class="splide">
@@ -55,84 +59,123 @@
             </ul>
           </div>
         </div>   
- </main>
+    </section>
 
 <!-- Block__First -->
-<section class="section__block_first">
-    <div class="section__about">
-      <h3>About me</h3>
-      <p>Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.</p>
+    <section class="block_first">
+      <div class="block_first__about">
+         <h3>About me</h3>
+          <p>Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.</p>
       
-      <p>I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+          <p>I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
       
       <p>Ready to implement excellent projects with wonderful people.</p>
     </div>
-</section>
+    </section>
 
 <!-- Block__Second -->
-<section class="second__skl">
-  <h3>Skills</h3>
-  <p class="second__sub">I work in such programs as</p>
+    <section class="second">
+    <h3>Skills</h3>
+    <p class="second__sub">I work in such programs as</p>
 
-  <div id="card-slider" class="splide">
-    <div class="splide__track">
-      <ul class="splide__list">
-         <li class="splide__slide">           
-              <img src="./image/ps.svg" class="slide__image">
+    <div id="card-slider" class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">           
+                <img src="./image/ps.svg" class="slide__image">
+              <div class="text__pad">
+                Adobe Photoshop
+              </div>  
+              <div class ="slide__star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-silver.png" alt="Star">
+              </div>  
+          </li>
+          <li class="splide__slide">
+                <img src="./image/ae.svg" class="slide__image">
+              <div class="text__pad">
+                Adobe <p>After Effects</p>              
+              </div>  
+              <div class ="slide__star2">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-silver.png" alt="Star">
+              </div>    
+        </li>      
+        <li class="splide__slide">
+              <img src="./image/al.svg" class="slide__image">
             <div class="text__pad">
-              Adobe Photoshop
-            </div>  
+              Adobe Illustrator
+            </div>
             <div class ="slide__star">
               <img src="./image/Star-black.png" alt="Star">
               <img src="./image/Star-black.png" alt="Star">
-              <img src="./image/Star-black.png" alt="Star">
-              <img src="./image/Star-black.png" alt="Star">
               <img src="./image/Star-silver.png" alt="Star">
-            </div>  
+              <img src="./image/Star-silver.png" alt="Star">
+              <img src="./image/Star-silver.png" alt="Star">
+            </div>
         </li>
         <li class="splide__slide">
-              <img src="./image/ae.svg" class="slide__image">
+              <img src="./image/pr.svg" class="slide__image">
             <div class="text__pad">
-               Adobe <p>After Effects</p>              
-            </div>  
-            <div class ="slide__star2">
+              Printerest
+            </div>
+            <div class ="slide__star">
               <img src="./image/Star-black.png" alt="Star">
               <img src="./image/Star-black.png" alt="Star">
               <img src="./image/Star-black.png" alt="Star">
               <img src="./image/Star-black.png" alt="Star">
               <img src="./image/Star-silver.png" alt="Star">
-            </div>    
-       </li>      
-       <li class="splide__slide">
-            <img src="./image/al.svg" class="slide__image">
-          <div class="text__pad">
-            Adobe Illustrator
-          </div>
-          <div class ="slide__star">
-            <img src="./image/Star-black.png" alt="Star">
-            <img src="./image/Star-black.png" alt="Star">
-            <img src="./image/Star-silver.png" alt="Star">
-            <img src="./image/Star-silver.png" alt="Star">
-            <img src="./image/Star-silver.png" alt="Star">
-          </div>
-      </li>
-      <li class="splide__slide">
-            <img src="./image/pr.svg" class="slide__image">
-          <div class="text__pad">
-            Printerest
-          </div>
-          <div class ="slide__star">
-            <img src="./image/Star-black.png" alt="Star">
-            <img src="./image/Star-black.png" alt="Star">
-            <img src="./image/Star-black.png" alt="Star">
-            <img src="./image/Star-black.png" alt="Star">
-            <img src="./image/Star-silver.png" alt="Star">
-          </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+                <img src="./image/lr.svg" class="slide__image">
+              <div class="text__pad">
+                  lr
+              </div>
+              <div class ="slide__star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-silver.png" alt="Star">
+              </div>
         </li>
         <li class="splide__slide">
-              <img src="./image/lr.svg" class="slide__image">
+                <img src="./image/figma_logo_icon_170157.svg" class="slide__size">
+              <div class="text__pad">
+                  Figma
+              </div>
+              <div class ="slide__star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-silver.png" alt="Star">
+                <img src="./image/Star-silver.png" alt="Star">
+              </div>
+        </li> 
+        <li class="splide__slide">
+              <img src="./image/adobe-xd-seeklogo.com.svg" class="slide__size">
             <div class="text__pad">
-                lr
+                Adobe XD
+            </div>
+            <div class ="slide__star">
+              <img src="./image/Star-black.png" alt="Star">
+              <img src="./image/Star-black.png" alt="Star">
+              <img src="./image/Star-silver.png" alt="Star">
+              <img src="./image/Star-silver.png" alt="Star">
+              <img src="./image/Star-silver.png" alt="Star">
+            </div>
+        </li> 
+        <li class="splide__slide">
+              <img src="./image/scetch.png" class="slide__size">
+            <div class="text__pad">
+                Scetch
             </div>
             <div class ="slide__star">
               <img src="./image/Star-black.png" alt="Star">
@@ -141,71 +184,149 @@
               <img src="./image/Star-black.png" alt="Star">
               <img src="./image/Star-silver.png" alt="Star">
             </div>
-      </li>
-      <li class="splide__slide">
-              <img src="./image/figma_logo_icon_170157.svg" class="slide__size">
-            <div class="text__pad">
-                Figma
-            </div>
-            <div class ="slide__star">
-              <img src="./image/Star-black.png" alt="Star">
-              <img src="./image/Star-black.png" alt="Star">
-              <img src="./image/Star-black.png" alt="Star">
-              <img src="./image/Star-silver.png" alt="Star">
-              <img src="./image/Star-silver.png" alt="Star">
-            </div>
-      </li> 
-      <li class="splide__slide">
-            <img src="./image/adobe-xd-seeklogo.com.svg" class="slide__size">
-          <div class="text__pad">
-              Adobe XD
-          </div>
-          <div class ="slide__star">
-            <img src="./image/Star-black.png" alt="Star">
-            <img src="./image/Star-black.png" alt="Star">
-            <img src="./image/Star-silver.png" alt="Star">
-            <img src="./image/Star-silver.png" alt="Star">
-            <img src="./image/Star-silver.png" alt="Star">
-          </div>
-      </li> 
-      <li class="splide__slide">
-            <img src="./image/scetch.png" class="slide__size">
-          <div class="text__pad">
-              Scetch
-          </div>
-          <div class ="slide__star">
-            <img src="./image/Star-black.png" alt="Star">
-            <img src="./image/Star-black.png" alt="Star">
-            <img src="./image/Star-black.png" alt="Star">
-            <img src="./image/Star-black.png" alt="Star">
-            <img src="./image/Star-silver.png" alt="Star">
-          </div>
-      </li> 
-      </ul>
-     </div>
+        </li> 
+        </ul>
+       </div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Block Portfoilio -->
-<section class="portfolio">
-      <h2>Portfolio</h2>
-        <figure class="portfolio__image">
-          <img src="./image/portfoliobg.png" alt="portfolio">
-        </figure>
-              <a href="#">Online fashion store - Homepage</a>
-        <figure class="portfolio__image">
-              <img src="./image/reebok_web.png" alt="reebok_web">
-        </figure>
-              <a href="#">Reebok Store - Concept</a>
-        <figure class="portfolio__image">
-                <img src="./image/camera_web .png" alt="camera_web">
-        </figure>
-                <a href="#">Braun Landing Page - Conceptt</a>
-</section>
+ <!-- Slider-mobile -->
+    <section>
+      <div id="card-slider-mobile" class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">           
+                  <img src="./image/ps.svg" class="slide__image">
+                <div class="text__pad">
+                  Adobe Photoshop
+                </div>  
+                <div class ="slide__star">
+                  <img src="./image/Star-black.png" alt="Star">
+                  <img src="./image/Star-black.png" alt="Star">
+                  <img src="./image/Star-black.png" alt="Star">
+                  <img src="./image/Star-black.png" alt="Star">
+                  <img src="./image/Star-silver.png" alt="Star">
+                </div>  
+            </li>
+            <li class="splide__slide">
+                  <img src="./image/ae.svg" class="slide__image">
+                <div class="text__pad">
+                  Adobe <p>After Effects</p>              
+                </div>  
+                <div class ="slide__star2">
+                  <img src="./image/Star-black.png" alt="Star">
+                  <img src="./image/Star-black.png" alt="Star">
+                  <img src="./image/Star-black.png" alt="Star">
+                  <img src="./image/Star-black.png" alt="Star">
+                  <img src="./image/Star-silver.png" alt="Star">
+                </div>    
+          </li>      
+          <li class="splide__slide">
+                <img src="./image/al.svg" class="slide__image">
+              <div class="text__pad">
+                Adobe Illustrator
+              </div>
+              <div class ="slide__star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-silver.png" alt="Star">
+                <img src="./image/Star-silver.png" alt="Star">
+                <img src="./image/Star-silver.png" alt="Star">
+              </div>
+          </li>
+          <li class="splide__slide">
+                <img src="./image/pr.svg" class="slide__image">
+              <div class="text__pad">
+                Printerest
+              </div>
+              <div class ="slide__star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-silver.png" alt="Star">
+              </div>
+            </li>
+            <li class="splide__slide">
+                  <img src="./image/lr.svg" class="slide__image">
+                <div class="text__pad">
+                    lr
+                </div>
+                <div class ="slide__star">
+                  <img src="./image/Star-black.png" alt="Star">
+                  <img src="./image/Star-black.png" alt="Star">
+                  <img src="./image/Star-black.png" alt="Star">
+                  <img src="./image/Star-black.png" alt="Star">
+                  <img src="./image/Star-silver.png" alt="Star">
+                </div>
+          </li>
+          <li class="splide__slide">
+                  <img src="./image/figma_logo_icon_170157.svg" class="slide__size">
+                <div class="text__pad">
+                    Figma
+                </div>
+                <div class ="slide__star">
+                  <img src="./image/Star-black.png" alt="Star">
+                  <img src="./image/Star-black.png" alt="Star">
+                  <img src="./image/Star-black.png" alt="Star">
+                  <img src="./image/Star-silver.png" alt="Star">
+                  <img src="./image/Star-silver.png" alt="Star">
+                </div>
+          </li> 
+          <li class="splide__slide">
+                <img src="./image/adobe-xd-seeklogo.com.svg" class="slide__size">
+              <div class="text__pad">
+                  Adobe XD
+              </div>
+              <div class ="slide__star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-silver.png" alt="Star">
+                <img src="./image/Star-silver.png" alt="Star">
+                <img src="./image/Star-silver.png" alt="Star">
+              </div>
+          </li> 
+          <li class="splide__slide">
+                <img src="./image/scetch.png" class="slide__size">
+              <div class="text__pad">
+                  Scetch
+              </div>
+              <div class ="slide__star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-black.png" alt="Star">
+                <img src="./image/Star-silver.png" alt="Star">
+              </div>
+          </li> 
+          </ul>
+        </div>
+        </div>
+      </div>
+    </section> 
+    
+  <!-- Block Portfoilio -->
+  <section class="portfolio">
+        <h2>Portfolio</h2>
+          <figure class="portfolio__image">
+            <img src="./image/portfoliobg.png" alt="portfolio">
+          </figure>
+                <a href="#">Online fashion store - Homepage</a>
+          <figure class="portfolio__image">
+                <img src="./image/reebok_web.png" alt="reebok_web">
+          </figure>
+                <a href="#">Reebok Store - Concept</a>
+          <figure class="portfolio__image">
+                  <img src="./image/camera_web .png" alt="camera_web">
+          </figure>
+                  <a href="#">Braun Landing Page - Conceptt</a>
+  </section>
+</main>
 
-<!-- Contacts -->
-<section class="contacts">
+<!-- Footer-->
+<footer>
+    <section class="contacts">
       <h2>Contacts</h2>
         <span class="contacts__know">Want to know more or just chat?<br> You are welcome!</span>
         <input type="submit" value="Send message" class="contacts__button">
@@ -216,8 +337,8 @@
         <img src="./image/behance (1).png" alt="behance" class="contacts__soc_icons">
       </figure>
         <p class="contacts__par">Like me on <br> LinkedIn, Instagram, Behance, Facebook</p>
-</section>
-
+    </section>
+</footer>
 
 
 
