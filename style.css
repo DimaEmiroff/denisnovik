@@ -137,9 +137,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .block_first__about p {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
   padding-bottom: 50px;
-  width: 490px;
-
+  width: auto;
+  max-width: 490px;
 }
 
 /* -=========Block__Second=======- */
@@ -297,10 +300,9 @@ h1,h2,h3,h4,h5,h6 {
     display: none;
   }
 
-  body {
-    margin: 0 auto;
-    width: auto;
-    max-width: 767px;  
+  .mobile {
+    margin: auto 3rem;
+    min-width: 400px;  
 }
   .header {
     padding: 20px 30px 30px 10px;
@@ -365,14 +367,15 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 30px;
   }
   .portfolio {
-    height: 1820px;
+    width: 100%;
+    height: 1630px;
   }
 
   .portfolio img{
     display: flex;
     
     height: auto;
-    min-width: 484px;
+    min-width: 400px;
   
   }
 
