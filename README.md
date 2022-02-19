@@ -1,1 +1,1 @@
-# SITE Denis Novik mobile adaptaion
+# Denis Novik site - lending (mobile adaptaion)
