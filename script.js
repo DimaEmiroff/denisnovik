@@ -6,6 +6,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
     type: string = 'slider',
     arrows: boolean  = true,
     autoHeight: boolean = true,
+    focus    : 'center',
     autoplay: true,
     cover: false,    
     rewind: boolean = true,
@@ -38,6 +39,9 @@ document.addEventListener( 'DOMContentLoaded', function () {
     type: string = 'slider',
     arrows: boolean  = true,
     autoHeight: boolean = true,
+    height   : '10rem',
+    focus    : 'center',
+    
     cover: false,
     rewind: boolean = true,
     perPage: number = 1,
